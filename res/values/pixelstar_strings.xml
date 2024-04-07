@@ -102,6 +102,7 @@
     <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 
     <!-- Hardware info -->
+    <string name="device_market_name">Market Name</string>
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
 </resources>
