@@ -27,8 +27,8 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settings.slices.Sliceable;
 public class PixelstarVersionPreferenceController extends BasePreferenceController {
     private static final String TAG = "pixelstarVersionDialogCtrl";
-    private static final String KEY_PIXELSTAR_VERSION_PROP = "ro.pixelstar.base.version";
-    private static final String KEY_PIXELSTAR_CODENAME_PROP = "ro.pixelstar.base.codename";
+    private static final String KEY_PIXELSTAR_VERSION_PROP = "ro.pixelstar.build.version";
+    private static final String KEY_PIXELSTAR_CODENAME_PROP = "ro.pixelstar.build.versioncodename";
     private final PackageManager mPackageManager;
     public PixelstarVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
